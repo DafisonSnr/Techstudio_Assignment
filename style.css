@@ -1,0 +1,884 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: var(--font-family-sans-serif);
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xxxs: 0;
+  --breakpoint-xxs: 330px;
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 544px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "PT Sans",sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.vertical-line {
+  width: 50px;
+  border: 3px solid var(--blue);
+  margin: 0 auto 50px auto;
+}
+
+.navigation {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.container .tech-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .techstudio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.container .techstudio .academy {
+  margin-left: 15px;
+}
+
+.container .techstudio .academy h5 {
+  font-size: 1.3em;
+}
+
+.container .techstudio .academy p {
+  font-size: 1.1em;
+  font-family: var(--font-family-sans-serif);
+}
+
+.container .links {
+  text-align: end;
+  width: 100%;
+  display: none;
+}
+
+.container .links a {
+  display: inline-block;
+  padding: 15px;
+  font-size: 1.2em;
+  color: var(--blue);
+}
+
+section.javascript-fullstack {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  min-height: 65em;
+}
+
+section.javascript-fullstack .container h1 {
+  color: var(--white);
+  font-family: walsheim,sans-serif;
+}
+
+section.javascript-fullstack .container .discriptions {
+  width: 95%;
+  margin: 0 auto;
+}
+
+section.javascript-fullstack .container .discriptions p {
+  line-height: 1.6em;
+  font-size: 1.3em;
+  color: #b7b7b7;
+  font-family: walsheim,sans-serif;
+  margin-top: 0;
+  margin-bottom: 7rem;
+}
+
+section.javascript-fullstack .container .discriptions .enrol-details h4 {
+  color: var(--white);
+  font-family: walsheim,sans-serif;
+  font-size: 1.5em;
+}
+
+section.javascript-fullstack .container .discriptions .enrol-details ul {
+  padding: 0;
+}
+
+section.javascript-fullstack .container .discriptions .enrol-details ul li {
+  list-style: none;
+  color: var(--white);
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+section.javascript-fullstack .container .discriptions .enrol-details ul li span {
+  float: right;
+}
+
+section.javascript-fullstack .container .registration {
+  background-color: var(--white);
+  height: 35em;
+  padding: 30px;
+  margin-bottom: 18px;
+}
+
+section.javascript-fullstack .container .registration P {
+  font-size: 1.5em;
+}
+
+section.javascript-fullstack .container .registration input {
+  padding: 30px 0;
+  border: 1px solid #000;
+}
+
+section.javascript-fullstack .container .registration button {
+  width: 100%;
+  background-color: var(--blue);
+  padding: 20px 0;
+  color: var(--white);
+  font-size: 1.1em;
+}
+
+section.testimonies {
+  background-color: #f9fafa;
+  padding: 20px 0;
+  width: 100%;
+}
+
+section.testimonies img {
+  width: 120px;
+  border-radius: 100%;
+}
+
+section.testimonies ul {
+  padding: 0;
+}
+
+section.testimonies ul li {
+  list-style: none;
+  text-align: center;
+}
+
+section.testimonies ul li p {
+  font-size: 1.2em;
+}
+
+section.skills-aquisition .container {
+  margin-top: 30px;
+}
+
+section.skills-aquisition .container ul {
+  padding: 0;
+}
+
+section.skills-aquisition .container ul li {
+  list-style: none;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section.skills-aquisition .container ul li p {
+  font-size: 1.2em;
+}
+
+section.skills-aquisition .container ul li h4 {
+  text-transform: capitalize;
+}
+
+section.developer {
+  background-color: #f9fafa;
+}
+
+section.developer h3 {
+  text-align: center;
+  margin: 70px  0px 20px 0;
+}
+
+section.developer .vertical-line {
+  width: 50px;
+  border: 3px solid var(--blue);
+  margin: 0 auto 50px auto;
+}
+
+section.developer p {
+  font-size: 1.15em;
+  line-height: 1.5em;
+}
+
+section.developer a {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: var(--blue);
+}
+
+section.experience {
+  margin-top: 70px;
+}
+
+section.experience article {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  font-size: 1.15em;
+  font-family: var(--font-family-sans-serif);
+}
+
+section.experience article h4 {
+  margin: 30px 0;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+section.experience .fundamentals .description {
+  margin-top: 70px;
+}
+
+section.experience .fundamentals .description ul {
+  padding: 0;
+}
+
+section.experience .fundamentals .description ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+section.experience .fundamentals .description ul li h4 {
+  font-weight: bold;
+}
+
+section.experience .fundamentals .description ul li p {
+  font-size: 1.15em;
+  font-family: var(--font-family-sans-serif);
+}
+
+section.experience .fundamentals .description .package a {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+section.experience .fundamentals .description .package .complete {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+.facility {
+  background-color: #f9fafa;
+  font-family: var(--font-family-sans-serif);
+}
+
+.facility h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.facility .vertical-line {
+  width: 50px;
+  border: 3px solid var(--blue);
+  margin: 0 auto 50px auto;
+}
+
+.facility .learning-facility {
+  width: 100%;
+  height: 440px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 10px 8px #888888;
+          box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 40px;
+}
+
+.facility .learning-facility h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.facility .learning-facility p {
+  font-size: 1.2em;
+}
+
+.facility .learning-facility a {
+  text-decoration: underline;
+  color: var(--blue);
+}
+
+section.academy .container h3 {
+  text-align: center;
+}
+
+section.academy .container p {
+  font-family: var(--font-family-sans-serif);
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+section.academy .container ul li {
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+section.academy .container h4 {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+section.academy .container .guidance .col2 h4 {
+  text-align: left;
+  font-size: 1.54em;
+}
+
+section.academy .container .guidance .col2 .complete {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+section.academy .container .guidance .col2 a {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto 30px auto;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+section.interest {
+  background-color: #f9fafa;
+  padding: 40px 0;
+}
+
+section.interest .container {
+  background-color: var(--blue);
+  padding: 50px 0;
+}
+
+section.interest .container p {
+  padding: 0 50px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+}
+
+section.interest .container a {
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--blue);
+  background-color: var(--white);
+}
+
+section.interest .container a:hover {
+  background-color: #070737;
+  color: #fff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+section.questions h3 {
+  font-size: 1.9em;
+  margin-top: 50px;
+  text-align: center;
+}
+
+section.questions article {
+  width: 50%;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+section.questions ul.primary {
+  padding: 0;
+}
+
+section.questions ul.primary li {
+  list-style: none;
+  font-size: 1.15em;
+  padding: 10px 0;
+}
+
+section.questions ul.primary li h4 {
+  font-weight: bold;
+}
+
+section.questions ul.secondary {
+  padding: 0;
+}
+
+section.questions ul.secondary li {
+  list-style: none;
+  font-size: 1.15em;
+  padding: 10px 0;
+}
+
+section.questions ul.secondary li h4 {
+  font-weight: bold;
+}
+
+section.questions ul.secondary li ul li {
+  list-style-type: disc;
+  font-size: 1em;
+}
+
+section.questions .complete-section a {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+section.questions .complete-section .complete {
+  font-size: 1em;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+section.get-started {
+  background-color: var(--blue);
+  padding: 50px 10px;
+}
+
+section.get-started .web-development {
+  padding: 30px;
+  background-color: var(--light);
+}
+
+section.get-started .web-development h6 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+section.get-started .web-development p {
+  font-size: 1.15em;
+  padding: 10px 0 30px 0;
+}
+
+section.get-started .web-development h3 {
+  font-size: 2.5em;
+  font-weight: normal !important;
+}
+
+section.get-started .web-development h5 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+section.get-started .web-development h4 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+section.get-started .web-development ul.primary {
+  padding: 0;
+}
+
+section.get-started .web-development ul.primary li {
+  list-style: none;
+  font-size: 1.15em;
+  padding: 10px 0;
+}
+
+section.get-started .web-development ul.secondary {
+  padding: 0;
+  font-size: 1.15em;
+}
+
+section.get-started .classes {
+  background-color: var(--red);
+  margin-top: 30px;
+  padding: 30px;
+  color: #fff;
+}
+
+section.get-started .classes h4 {
+  text-transform: capitalize;
+  font-size: 1.9em;
+}
+
+section.get-started .classes h3 {
+  font-size: 2.2em;
+}
+
+section.get-started .classes ul {
+  padding: 10px 30px;
+}
+
+section.get-started .classes ul li {
+  font-size: 1.15em;
+}
+
+section.get-started .classes a {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 50px 0;
+}
+
+footer .social-media {
+  font-size: 2.1em;
+}
+
+footer .social-media h4 {
+  display: none;
+}
+
+footer .social-media i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+footer .social-media i:hover {
+  color: red;
+}
+
+footer .sign-up {
+  padding: 0 40px;
+}
+
+footer .sign-up h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+footer .sign-up input, footer .sign-up button {
+  width: 100%;
+  padding: 15px 0;
+}
+
+footer .sign-up button {
+  text-transform: capitalize;
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: #fff;
+  background-color: var(--blue);
+  border: none;
+}
+
+footer .studio-address {
+  padding: 20px 70px;
+  color: #fff;
+}
+
+footer ::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+footer :-ms-input-placeholder {
+  font-weight: bold;
+}
+
+footer ::-ms-input-placeholder {
+  font-weight: bold;
+}
+
+footer ::placeholder {
+  font-weight: bold;
+}
+
+.whatsapp-container {
+  position: relative;
+}
+
+.whatsapp-container a {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  display: block;
+  background-color: #25d366;
+  -webkit-box-shadow: 2px 5px 15px #888888;
+          box-shadow: 2px 5px 15px #888888;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.whatsapp-container i {
+  color: #fff;
+  font-size: 2.5em;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  nav .navigation .links {
+    display: block;
+  }
+  section.javascript-fullstack {
+    min-height: 50em;
+  }
+  section.javascript-fullstack .container .fullstack-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 80px auto;
+  }
+  section.javascript-fullstack .container .fullstack-container .registration {
+    margin-left: 50px;
+    width: 800px;
+  }
+  section.javascript-fullstack .container .fullstack-container .registration .fullname {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.javascript-fullstack .container .fullstack-container .registration .first {
+    width: 50%;
+    margin-right: 20px;
+  }
+  section.javascript-fullstack .container .fullstack-container .registration .last {
+    width: 50%;
+  }
+  section.developer .description a {
+    width: 30%;
+    margin: unset;
+    margin: 20px 0;
+  }
+  .fundamentals .description {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .fundamentals .description ul.primary {
+    margin-right: 20px;
+  }
+  .fundamentals .description p.complete {
+    text-align: left;
+  }
+  .fundamentals .description .package a.program {
+    width: 50% !important;
+    margin: unset !important;
+  }
+  .facility {
+    margin-top: 50px;
+  }
+  .facility .container h3 {
+    font-size: 2.2em;
+  }
+  .facility .container img {
+    width: 75% !important;
+  }
+  .facility .container .learning-facility {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .facility .container .fac-container {
+    position: relative;
+    width: 100%;
+  }
+  section.academy .description {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 50%;
+        grid-template-columns: 40% 50%;
+    margin: 60px 0;
+  }
+  section.academy .description .heading-sm {
+    display: none;
+  }
+  section.academy .description .heading-bg {
+    display: block;
+  }
+  section.academy .description .heading-bg h3 {
+    font-size: 2.8em;
+  }
+  section.academy .description .tech-studio {
+    margin-left: 30px;
+  }
+  section.academy .support {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  section.academy .support h4 {
+    font-size: 3em;
+  }
+  section.academy .guidance {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 50%;
+        grid-template-columns: 40% 50%;
+    margin: 60px 0;
+  }
+  section.academy .guidance .col2 {
+    margin-left: 30px;
+  }
+  section.academy .guidance .col2 a {
+    width: 40% !important;
+    margin: unset !important;
+  }
+  .testimonies ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .testimonies ul li:last-child {
+    margin-top: 50px;
+    -webkit-transform: translateX(45%);
+            transform: translateX(45%);
+  }
+  .skills-aquisition ul.list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .developer .description {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .developer .description .details {
+    margin-right: 20px;
+  }
+  section.interest .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px 15px;
+    border-radius: 10px;
+  }
+  section.interest .container p {
+    width: 50%;
+    font-size: 1.58em;
+    text-align: left !important;
+  }
+  section.interest .container a {
+    width: 200px;
+    padding: 13px;
+    height: 50px;
+  }
+  section.questions .ul-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  section.questions .ul-container ul li {
+    font-size: 1.2em;
+  }
+  section.questions .complete-section {
+    margin-bottom: 70px;
+  }
+  section.questions .complete-section p.complete {
+    font-size: 1.2em;
+  }
+  section.questions .complete-section a {
+    width: 230px;
+    margin: unset;
+  }
+  section.get-started .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 80px;
+  }
+  section.get-started .container .web-development {
+    width: 85%;
+    margin-right: 60px;
+  }
+  section.get-started .container .web-development ul.secondary li {
+    padding: 10px;
+  }
+  section.get-started .container .classes {
+    width: 50%;
+  }
+  footer {
+    width: 100%;
+    text-align: left;
+  }
+  footer .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  footer .container .studio-address {
+    width: 35%;
+    font-size: 1.3em;
+  }
+  footer .container .sign-up {
+    width: 40%;
+  }
+  footer .container .social-media h4 {
+    display: block;
+    font-size: 0.8em;
+    color: #fff;
+  }
+  footer .container .social-media i {
+    font-size: 0.7em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
